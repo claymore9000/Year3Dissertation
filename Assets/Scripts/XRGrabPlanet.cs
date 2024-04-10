@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -9,8 +10,16 @@ public class XRGrabPlanet : XRGrabInteractable
 {
     private GameObject locktarget;
     private Rigidbody planetRigidbody;
+    public GameObject infobox;
+    
+    // makes infobox invisible on start
+    private void Start()
+    {
+        infobox.GetComponent<MeshRenderer>().enabled = false;
+    }
 
 
+    // filters the locktarget to only locks 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Lock")
@@ -25,6 +34,7 @@ public class XRGrabPlanet : XRGrabInteractable
         locktarget = null;
     }
 
+    // When user ungrabs an object, it checks for a locktarget and locks to it
     protected override void Detach()
     {
         if (locktarget != null)
@@ -41,4 +51,16 @@ public class XRGrabPlanet : XRGrabInteractable
     {
         transform.SetParent(null, true);   
     }
+
+    protected override void OnHoverEntered(HoverEnterEventArgs args)
+    {
+        print("HoverEntered");
+        infobox.GetComponent<MeshRenderer>().enabled = true;
+    }
+    protected void OnHoverExited(HoverEnterEventArgs args)
+    {
+        print("HoverExited");
+        infobox.GetComponent<MeshRenderer>().enabled = false;
+    }
 }
+
