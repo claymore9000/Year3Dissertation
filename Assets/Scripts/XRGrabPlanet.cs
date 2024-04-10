@@ -1,18 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class XRGrabPlanet : MonoBehaviour
+public class XRGrabPlanet : XRGrabInteractable
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    private bool locked = false;
+    private GameObject locktarget;
+    private Rigidbody planetRigidbody;
+
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        locktarget = other.gameObject;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        locktarget = null;
+    }
+
+    protected override void Detach()
+    {
+        if (locktarget != null && locktarget.tag == "Lock")
+        {
+            planetRigidbody = this.gameObject.GetComponent<Rigidbody>();
+            planetRigidbody.velocity = Vector3.zero;
+            planetRigidbody.angularVelocity = Vector3.zero;
+            transform.parent = locktarget.transform;
+        }
     }
 }
