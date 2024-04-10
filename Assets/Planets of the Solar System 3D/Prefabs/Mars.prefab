@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4622294277052950}
   - component: {fileID: 198982321679544750}
   - component: {fileID: 199585147326065124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4856,9 +4856,9 @@ GameObject:
   - component: {fileID: 3876099136015607653}
   - component: {fileID: -4133476713391764466}
   - component: {fileID: -3409161560557268792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mars
-  m_TagString: TrackingObject
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5101,7 +5101,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -5140,7 +5140,7 @@ GameObject:
   - component: {fileID: 4995073036599356}
   - component: {fileID: 33386941979443122}
   - component: {fileID: 23814069265243434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 4696033646309244}
   - component: {fileID: 33680731411982074}
   - component: {fileID: 23029203783053510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mars_Lod
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4887671859949452}
   - component: {fileID: 33981578029338554}
   - component: {fileID: 23492463847442280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Venus_Lod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,9 +97,9 @@ GameObject:
   - component: {fileID: -9047052683504610511}
   - component: {fileID: -4049281275015815985}
   - component: {fileID: 8013015720876131655}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Venus
-  m_TagString: TrackingObject
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 4751164019602776}
   - component: {fileID: 33909785522345158}
   - component: {fileID: 23367901781926844}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Venus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 4463993732138566}
   - component: {fileID: 198633834765508080}
   - component: {fileID: 199080007387293916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

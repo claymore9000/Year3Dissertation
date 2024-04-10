@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4885312797253666}
   - component: {fileID: 33535854673712314}
   - component: {fileID: 23921463290005256}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4198155277423740}
   - component: {fileID: 33255558271150980}
   - component: {fileID: 23864177615755696}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neptune_Lod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4223518549142610}
   - component: {fileID: 198381265653177096}
   - component: {fileID: 199963352071329394}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5022,9 +5022,9 @@ GameObject:
   - component: {fileID: 6835518221918684073}
   - component: {fileID: -6248894779809793109}
   - component: {fileID: 8691101347112932959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Neptune
-  m_TagString: TrackingObject
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5267,7 +5267,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []

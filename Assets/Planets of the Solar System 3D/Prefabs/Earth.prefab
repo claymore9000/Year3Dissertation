@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4947585001355798}
   - component: {fileID: 33598354769644610}
   - component: {fileID: 23090388759196626}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Earth_Lod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4517316721654034}
   - component: {fileID: 198289972671360370}
   - component: {fileID: 199987257424377576}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,9 +4939,9 @@ GameObject:
   - component: {fileID: 3161828071552266046}
   - component: {fileID: 4596922421136584709}
   - component: {fileID: -6451302562170289345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Earth
-  m_TagString: TrackingObject
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5184,7 +5184,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 4921127262728976}
   - component: {fileID: 33504760901362302}
   - component: {fileID: 23867915394586346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4262619043198982}
   - component: {fileID: 198962722563259096}
   - component: {fileID: 199131918321748202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4853,7 +4853,7 @@ GameObject:
   - component: {fileID: 4532541069739506}
   - component: {fileID: 33115170397982128}
   - component: {fileID: 23793970008372544}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jupiter_Lod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,9 +4939,9 @@ GameObject:
   - component: {fileID: 6945282784722362040}
   - component: {fileID: -1069811573596802184}
   - component: {fileID: 3941370372299266100}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jupiter
-  m_TagString: TrackingObject
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5184,7 +5184,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 4349984063913474}
   - component: {fileID: 33023636874344422}
   - component: {fileID: 23340741358459038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
