@@ -18,6 +18,14 @@ public class XRGrabPlanet : XRGrabInteractable
         infobox.GetComponent<MeshRenderer>().enabled = false;
     }
 
+    private void Update()
+    {
+        if(transform.parent != null && locktarget != null)
+        {
+            transform.position = locktarget.transform.position;
+        }
+    }
+
 
     // filters the locktarget to only locks 
     private void OnTriggerEnter(Collider other)
