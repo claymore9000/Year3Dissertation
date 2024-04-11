@@ -54,13 +54,16 @@ public class XRGrabPlanet : XRGrabInteractable
 
     protected override void OnHoverEntered(HoverEnterEventArgs args)
     {
-        print("HoverEntered");
-        infobox.GetComponent<MeshRenderer>().enabled = true;
+        if (infobox != null){
+            infobox.GetComponent<MeshRenderer>().enabled = true;
+        }
+
     }
-    protected void OnHoverExited(HoverEnterEventArgs args)
+    protected override void OnHoverExited(HoverExitEventArgs args)
     {
-        print("HoverExited");
-        infobox.GetComponent<MeshRenderer>().enabled = false;
+        if (infobox != null){
+            infobox.GetComponent<MeshRenderer>().enabled = false;
+        }
     }
 }
 
