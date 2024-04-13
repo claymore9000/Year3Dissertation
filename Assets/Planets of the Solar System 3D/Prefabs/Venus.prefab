@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 4182879556056083133}
   - component: {fileID: -9047052683504610511}
   - component: {fileID: -4049281275015815985}
+  - component: {fileID: 3272818698463693908}
   m_Layer: 7
   m_Name: Venus
   m_TagString: Planet
@@ -347,6 +348,19 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 0}
+  rotateVector: {x: 0, y: 0, z: 0}
+--- !u!114 &3272818698463693908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647581975099426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c977c8185aa7bb429743eab6029d6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1741346461429698
 GameObject:
   m_ObjectHideFlags: 0

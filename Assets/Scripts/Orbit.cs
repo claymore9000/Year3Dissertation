@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.Controls;
 
 public class Orbit : MonoBehaviour
 {
     public GameObject orbitCentre;
-    public float speed;
+    private float speed;
+    public float orbitTime;
+    public float orbitScale;
     public bool active = false;
     public string child;
 
+    private void Start()
+    {
+        speed = 365/orbitTime * orbitScale;
+    }
     // Update is called once per frame
     private void Update() 
     {

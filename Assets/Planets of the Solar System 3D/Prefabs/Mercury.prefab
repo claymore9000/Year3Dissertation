@@ -5021,6 +5021,7 @@ GameObject:
   - component: {fileID: 3581872359022681808}
   - component: {fileID: 2366119673273863367}
   - component: {fileID: -7276832140441096848}
+  - component: {fileID: -389699440412950168}
   m_Layer: 7
   m_Name: Mercury
   m_TagString: Planet
@@ -5272,3 +5273,16 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 0}
+  rotateVector: {x: 0, y: 0, z: 0}
+--- !u!114 &-389699440412950168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856687845478954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c977c8185aa7bb429743eab6029d6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

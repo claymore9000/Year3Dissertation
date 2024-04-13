@@ -4855,6 +4855,7 @@ GameObject:
   - component: {fileID: 6789804957547789107}
   - component: {fileID: 3876099136015607653}
   - component: {fileID: -4133476713391764466}
+  - component: {fileID: 780968778829392412}
   m_Layer: 7
   m_Name: Mars
   m_TagString: Planet
@@ -5106,6 +5107,19 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 0}
+  rotateVector: {x: 0, y: 0, z: 0}
+--- !u!114 &780968778829392412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288793558353234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c977c8185aa7bb429743eab6029d6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1299526964348990
 GameObject:
   m_ObjectHideFlags: 0

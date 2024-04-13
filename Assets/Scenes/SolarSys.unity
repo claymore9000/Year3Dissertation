@@ -581,6 +581,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2030180834}
     - target: {fileID: -7276832140441096848, guid: ab152f61198d54532ae39108e616ff59, type: 3}
+      propertyPath: rotatespeed.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7276832140441096848, guid: ab152f61198d54532ae39108e616ff59, type: 3}
+      propertyPath: rotatespeed.y
+      value: 6.207
+      objectReference: {fileID: 0}
+    - target: {fileID: -7276832140441096848, guid: ab152f61198d54532ae39108e616ff59, type: 3}
+      propertyPath: rotatespeed.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7276832140441096848, guid: ab152f61198d54532ae39108e616ff59, type: 3}
+      propertyPath: rotateVector.y
+      value: 6.207
+      objectReference: {fileID: 0}
+    - target: {fileID: -7276832140441096848, guid: ab152f61198d54532ae39108e616ff59, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
@@ -940,6 +956,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 1712867719}
+  rotateVector: {x: 0, y: 1.481, z: 0}
 --- !u!54 &612305236
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -984,6 +1001,18 @@ PrefabInstance:
       propertyPath: infobox
       value: 
       objectReference: {fileID: 2001212729}
+    - target: {fileID: -1069811573596802184, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+      propertyPath: rotatespeed.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1069811573596802184, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+      propertyPath: rotatespeed.y
+      value: 863.931
+      objectReference: {fileID: 0}
+    - target: {fileID: -1069811573596802184, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+      propertyPath: rotateVector.y
+      value: 863.931
+      objectReference: {fileID: 0}
     - target: {fileID: -1069811573596802184, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
@@ -1790,6 +1819,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 7971587}
+  rotateVector: {x: 0, y: 360, z: 0}
 --- !u!54 &940152467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2105,7 +2135,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -2334,6 +2372,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 1765459990}
+  rotateVector: {x: 0, y: 822.857, z: 0}
 --- !u!54 &1227039843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2800,7 +2839,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 687
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -2889,7 +2936,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 60190
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -2978,7 +3033,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 4333
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -3413,6 +3476,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 183839746}
+  rotateVector: {x: 0, y: 539.973, z: 0}
 --- !u!54 &1567634013
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3765,7 +3829,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 30687
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -4004,6 +4076,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 1083349050}
+  rotateVector: {x: 0, y: 508.259, z: 0}
 --- !u!54 &1789517452
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4502,6 +4575,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 324340728}
+  rotateVector: {x: 0, y: 352.665, z: 0}
 --- !u!54 &1956278414
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4567,7 +4641,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 225
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -4762,7 +4844,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 10759
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x
@@ -4988,7 +5078,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: active
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitTime
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383995872453249950, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
+      propertyPath: orbitScale
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2356168663441254244, guid: d1600f7073ac5824080b54b90d48cf94, type: 3}
       propertyPath: m_LocalScale.x

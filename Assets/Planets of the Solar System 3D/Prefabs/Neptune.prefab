@@ -5021,6 +5021,7 @@ GameObject:
   - component: {fileID: 6180789847588500435}
   - component: {fileID: 6835518221918684073}
   - component: {fileID: -6248894779809793109}
+  - component: {fileID: 4195195148460929064}
   m_Layer: 7
   m_Name: Neptune
   m_TagString: Planet
@@ -5272,3 +5273,16 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   infobox: {fileID: 0}
+  rotateVector: {x: 0, y: 0, z: 0}
+--- !u!114 &4195195148460929064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610884164528438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c977c8185aa7bb429743eab6029d6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
