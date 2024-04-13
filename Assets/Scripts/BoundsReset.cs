@@ -7,6 +7,8 @@ public class BoundsReset : MonoBehaviour
 {
 
     private Rigidbody planetRigidbody;
+    public GameObject mylock;
+
     private void Start()
     {
         planetRigidbody = gameObject.GetComponent<Rigidbody>();
@@ -16,10 +18,20 @@ public class BoundsReset : MonoBehaviour
     void Update()
     {
 
-        if (transform.position.x > 5000 | transform.position.y > 5000 | transform.position.z > 5000){
-            planetRigidbody.velocity = Vector3.zero;
-            planetRigidbody.angularVelocity = Vector3.zero;
-            transform.position = Vector3.zero;
+        if (Vector3.Distance(mylock.transform.position, transform.position) > 3000){
+
+            if (mylock.transform.childCount == 0)
+            {
+                planetRigidbody.velocity = Vector3.zero;
+                planetRigidbody.angularVelocity = Vector3.zero;
+                transform.position = mylock.transform.position;
+            }
+            else {
+                planetRigidbody.velocity = Vector3.zero;
+                planetRigidbody.angularVelocity = Vector3.zero;
+                transform.position = new Vector3(0, 200, 0);
+            }
+
         }
         
     } 

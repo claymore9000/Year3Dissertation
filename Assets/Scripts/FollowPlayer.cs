@@ -6,7 +6,6 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 
 {
-    public float mult;
     public GameObject target;
     public GameObject planet;
 

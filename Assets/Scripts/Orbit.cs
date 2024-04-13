@@ -12,16 +12,20 @@ public class Orbit : MonoBehaviour
     public bool active = false;
     public string child;
 
+
     private void Start()
     {
         speed = 365/orbitTime * orbitScale;
+        this.transform.RotateAround(orbitCentre.transform.position, Vector3.up, Random.Range(0,360));
     }
+
     // Update is called once per frame
     private void Update() 
     {
-        if (active && transform.GetChild(0).name == child && orbitCentre != null )
+        if (active && transform.childCount != 0 && transform.GetChild(0).name == child && orbitCentre != null )
         {
            this.transform.RotateAround(orbitCentre.transform.position, Vector3.up, speed * Time.deltaTime);
         }
     }
+
 }
