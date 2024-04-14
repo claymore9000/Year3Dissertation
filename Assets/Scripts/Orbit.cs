@@ -16,7 +16,7 @@ public class Orbit : MonoBehaviour
     private void Start()
     {
         speed = 365/orbitTime * orbitScale;
-        this.transform.RotateAround(orbitCentre.transform.position, Vector3.up, Random.Range(0,360));
+        //this.transform.RotateAround(orbitCentre.transform.position, Vector3.up, Random.Range(0,360));
     }
 
     // Update is called once per frame
